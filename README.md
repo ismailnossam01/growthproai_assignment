@@ -39,8 +39,7 @@ A stunning, production-ready Mini Local Business Dashboard built for the GrowthP
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd growthpro-ai-dashboard
+   git clone https://github.com/ismailnossam01/growthproai_assignment
    ```
 
 2. **Install dependencies**
@@ -50,8 +49,7 @@ A stunning, production-ready Mini Local Business Dashboard built for the GrowthP
 
 3. **Environment Setup**
    ```bash
-   # Copy environment variables
-   cp .env.example .env
+   VITE_API_URL : https://growthproai-assignment-backend.onrender.com
    
    # For local development, the default settings work fine
    # For production, update VITE_API_URL in .env to your deployed backend URL
@@ -75,7 +73,7 @@ A stunning, production-ready Mini Local Business Dashboard built for the GrowthP
 ### 🌐 Access the Application
 
 - **Frontend**: http://localhost:5173
-- **Backend**: http://localhost:3001
+- **Backend**: http://localhost:3002
 
 ## 🚀 Deployment
 
@@ -91,18 +89,6 @@ A stunning, production-ready Mini Local Business Dashboard built for the GrowthP
    ```bash
    npm run build
    # Upload the 'dist' folder to Netlify
-   ```
-
-#### Vercel
-1. **Automatic Deployment:**
-   - Connect your GitHub repository to Vercel
-   - Vercel will use the settings from `vercel.json`
-   - Update the `VITE_API_URL` in `vercel.json` to your deployed backend URL
-
-2. **Manual Deployment:**
-   ```bash
-   npm run build
-   # Deploy using Vercel CLI or upload 'dist' folder
    ```
 
 ### Backend Deployment
@@ -132,7 +118,7 @@ After deploying your backend, update the frontend environment variables:
 
 Example:
 ```
-VITE_API_URL=https://your-backend-app.render.com
+VITE_API_URL=https: https://growthproai-assignment-backend.onrender.com
 ```
 
 ## 📁 Project Structure
@@ -250,8 +236,8 @@ The built files will be in the `dist` directory, ready for deployment.
 
 ## 🔗 Live Demo
 
-- **Frontend**: [Your Netlify/Vercel URL]
-- **Backend**: [Your Render/Railway URL]
+- **Frontend**: https://growthproailbi.netlify.app/
+- **Backend**: https://growthproai-assignment-backend.onrender.com
 
 ---
 

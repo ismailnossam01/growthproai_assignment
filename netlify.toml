@@ -11,7 +11,7 @@
   status = 200
 
 [context.production.environment]
-  VITE_API_URL = "https://your-backend-app.render.com"
+  VITE_API_URL = "https://growthproai-assignment-backend.onrender.com"
 
 [context.deploy-preview.environment]
-  VITE_API_URL = "https://your-backend-app.render.com"
+  VITE_API_URL = "https://growthproai-assignment-backend.onrender.com"

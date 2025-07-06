@@ -2,6 +2,12 @@
 
 A stunning, production-ready Mini Local Business Dashboard built for the GrowthProAI Full Stack Intern Assignment. This application simulates how small businesses can view their SEO content and Google Business data with a modern, professional interface.
 
+## 🔗 Live Demo
+
+- **Frontend**: https://growthproailbi.netlify.app/
+- **Backend**: https://growthproai-assignment-backend.onrender.com
+
+
 ## ✨ Features
 
 - **Modern Dashboard Interface**: Clean, professional design with glass-morphism effects
